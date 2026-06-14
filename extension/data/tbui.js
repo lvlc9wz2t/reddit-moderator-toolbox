@@ -255,6 +255,7 @@ export function drawPosition (event) {
     const positions = {};
 
     if (document.documentElement.clientWidth - event.pageX < 400) {
+        const positions = {};
         positions.leftPosition = event.pageX - 600;
     } else {
         positions.leftPosition = event.pageX - 50;
